@@ -1,0 +1,54 @@
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Binarios compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Directorios de build
+/bin/
+/build/
+/dist/
+
+# Dependencias de Go
+/vendor/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos temporales de Air (hot reload)
+/tmp/
+tmp/
+
+# Logs
+*.log
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de cobertura de pruebas
+*.coverprofile
+coverage.html
+coverage.out
+
+# Archivos de debug
+__debug_bin
+debug
+
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini
