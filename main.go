@@ -5,6 +5,7 @@ import (
 	"Control_Escolar/models"
 	"Control_Escolar/routes"
 	"fmt"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -19,5 +20,8 @@ func main() {
 
 	routes.SetupRoutes(r)
 
-	r.Run(":8081")
+	port := os.Getenv("SERVER_PORT")
+
+	fmt.Printf("Servidor corriendo en el puerto %s\n", port)
+	r.Run(":" + port)
 }

@@ -1,7 +1,5 @@
 # Archivos de entorno
 .env
-.env.local
-.env.*.local
 
 # Binarios compilados de Go
 *.exe
